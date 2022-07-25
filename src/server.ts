@@ -52,7 +52,7 @@ server.get('/images/program.jpeg', (req, reply) => {
 })
 
 server.get('/cv', (req, reply) => {
-    return reply.sendFile('hadi-cv.pdf')
+    return reply.sendFile('Azizah-cv.pdf')
 })
 
 server.listen({ port: 4002, host: '0.0.0.0' }, err => {
